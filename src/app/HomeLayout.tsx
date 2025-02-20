@@ -3,7 +3,7 @@
 import React from "react"
 import Navbar from "./Components/Global/Navbar";
 import Footer from "./Components/Global/Footer";
-import Lenis from 'lenis'
+// import Lenis from 'lenis'
 
 interface HomeLayoutProps {
     children: React.ReactNode;
