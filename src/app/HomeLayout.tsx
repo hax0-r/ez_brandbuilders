@@ -11,15 +11,15 @@ interface HomeLayoutProps {
 
 export const HomeLayout: React.FC<HomeLayoutProps> = ({ children }) => {
     // Initialize Lenis
-    const lenis = new Lenis();
+    // const lenis = new Lenis();
 
-    // Use requestAnimationFrame to continuously update the scroll
-    function raf(time:any) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-    }
+    // // Use requestAnimationFrame to continuously update the scroll
+    // function raf(time:any) {
+    //     lenis.raf(time);
+    //     requestAnimationFrame(raf);
+    // }
 
-    requestAnimationFrame(raf);
+    // requestAnimationFrame(raf);
     return (
         <div>
             <Navbar />
