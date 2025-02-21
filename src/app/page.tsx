@@ -6,6 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Home() {
   return (
     <div className="">
+      <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-20 right-0 rounded-full blur-3xl"></div>
+      <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-60 left-0 rounded-full blur-3xl"></div>
       <HomeLayout>
         <section className="pt-16 lg:pt-32 bg-center bg-cover">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
@@ -36,7 +38,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
       </HomeLayout>
     </div>
   );
