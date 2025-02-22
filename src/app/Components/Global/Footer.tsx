@@ -6,7 +6,7 @@ import Image from "next/image"
 const Footer = () => {
     return (
         <div>
-            <footer className="w-full">
+            <footer className="w-full mt-20 ">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     {/*Grid*/}
                     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className="text-gray-600 hover:text-gray-900"
+                                        className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Home
                                     </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         About
                                     </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Pricing
                                     </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
                                 <li>
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Features
                                     </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className="text-gray-600 hover:text-gray-900"
+                                        className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Figma UI System
                                     </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Icons Assets
                                     </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Responsive Blocks
                                     </Link>
@@ -97,7 +97,7 @@ const Footer = () => {
                                 <li>
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Components Library
                                     </Link>
@@ -111,7 +111,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className="text-gray-600 hover:text-gray-900"
+                                        className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         FAQs
                                     </Link>
@@ -119,7 +119,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Quick Start
                                     </Link>
@@ -127,7 +127,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Documentation
                                     </Link>
@@ -135,7 +135,7 @@ const Footer = () => {
                                 <li>
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         User Guide
                                     </Link>
@@ -149,7 +149,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className="text-gray-600 hover:text-gray-900"
+                                        className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         News
                                     </Link>
@@ -157,7 +157,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Tips &amp; Tricks
                                     </Link>
@@ -165,7 +165,7 @@ const Footer = () => {
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         New Updates
                                     </Link>
@@ -173,7 +173,7 @@ const Footer = () => {
                                 <li>
                                     <Link
                                         href="javascript:;"
-                                        className=" text-gray-600 hover:text-gray-900"
+                                        className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Events
                                     </Link>

@@ -2,14 +2,16 @@ import Link from "next/link";
 import { HomeLayout } from "./HomeLayout";
 import { IoArrowForwardOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
+import heroImage from "@/Assets/banner-img.png"
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="">
-      <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-20 right-0 rounded-full blur-3xl"></div>
-      <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-60 left-0 rounded-full blur-3xl"></div>
       <HomeLayout>
-        <section className="pt-16 lg:pt-32 bg-center bg-cover">
+        <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-20 right-0 rounded-full blur-3xl"></div>
+        <div className="w-40 md:w-96 h-40 md:h-96 bg-indigo-50 -z-10 absolute top-60 left-0 rounded-full blur-3xl"></div>
+        <section className="pt-16 lg:pt-32 bg-center min-h-[calc(100vh-80px)] bg-cover">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
             <div className="border border-primary p-1 w-60 mx-auto rounded-full flex items-center justify-between mb-4">
               <span className="font-inter text-xs font-medium text-gray-900 ml-3">
@@ -36,6 +38,21 @@ export default function Home() {
               Create an account
               <IoIosArrowForward className="text-xl ml-2" />
             </Link>
+          </div>
+        </section>
+
+        <section className="max-w-7xl w-full mx-auto md:gap-20 gap-5 md:flex-row flex-col p-4 pt-8 flex items-center justify-center">
+          <div className="md:max-w-[50%] w-full">
+            <h2 className="md:text-5xl text-3xl font-bold">Why <span className="text-primeryColor">Choose Us?</span></h2>
+            <h2 className="md:text-2xl md:mt-7 mt-5 text-xl font-medium">Reliable Solutions</h2>
+            <p className="text-gray-500 mt-2">EZ Brand Builders understands that every business is unique. We serve them with innovative solutions that help them overcome business challenges.</p>
+            <h2 className="md:text-2xl md:mt-7 mt-5 text-xl font-medium">Client-Centric Approach</h2>
+            <p className="text-gray-500 mt-2">We always ensure our client’s mission and work accordingly to drive business growth.</p>
+            <h2 className="md:text-2xl md:mt-7 mt-5 text-xl font-medium">Constant Support</h2>
+            <p className="text-gray-500 mt-2">Our goal is to give businesses peace of mind and allow them to concentrate on their primary business operations by offering continuous support and maintenance.</p>
+          </div>
+          <div className="md:max-w-[50%] w-full">
+            <Image src={heroImage} alt="hero image" />
           </div>
         </section>
       </HomeLayout>
