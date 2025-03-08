@@ -12,7 +12,10 @@
   scroll-behavior: smooth;
 }
 
-img, button, iframe, a {
+img,
+button,
+iframe,
+a {
   user-select: none;
 }
 
@@ -25,6 +28,7 @@ img, button, iframe, a {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -39,6 +43,7 @@ img, button, iframe, a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -76,6 +81,7 @@ img, button, iframe, a {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -108,6 +114,63 @@ img, button, iframe, a {
   * {
     @apply border-border;
   }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative !important;
+    margin-top: 32px;
+}
+
+.swiper-slide.swiper-slide-active {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(0 191 102 / var(--tw-border-opacity)) !important;
+}
+
+.swiper-slide.swiper-slide-active>.swiper-slide-active\:text-indigo-600 {
+    --tw-text-opacity: 1;
+    color: rgb(0 191 102 / var(--tw-text-opacity));
+}
+
+.swiper-slide.swiper-slide-active>.flex .grid .swiper-slide-active\:text-indigo-600 {
+    --tw-text-opacity: 1;
+    color: rgb(0 191 102 / var(--tw-text-opacity));
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
   body {
     @apply bg-background text-foreground;
   }

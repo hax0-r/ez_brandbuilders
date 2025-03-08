@@ -12,8 +12,8 @@ export default {
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				secondrayColor: '#4464e7',
-				primeryColor: '#4e45e2',
+				secondrayColor: '#2ab463',
+				primeryColor: '#57b2e4',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
@@ -23,7 +23,7 @@ export default {
 					foreground: 'hsl(var(--popover-foreground))'
 				},
 				primary: {
-					DEFAULT: '#4e45e2',
+					DEFAULT: '#57b2e4',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {

@@ -23,14 +23,14 @@ const Footer = () => {
                             </p>
                             <Link
                                 href="javascript:;"
-                                className="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0"
+                                className="py-2.5 px-5 h-9 block w-fit bg-primeryColor rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-secondrayColor lg:mx-0"
                             >
                                 Contact us
                             </Link>
                         </div>
                         {/*End Col*/}
                         <div className="lg:mx-auto text-left ">
-                            <h4 className="text-lg text-gray-900 font-medium mb-7">Pagedone</h4>
+                            <h4 className="text-lg text-gray-900 font-medium mb-7">Quick Links</h4>
                             <ul className="text-sm  transition-all duration-500">
                                 <li className="mb-6">
                                     <Link
@@ -45,7 +45,7 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        About
+                                        About Us
                                     </Link>
                                 </li>
                                 <li className="mb-6">
@@ -53,7 +53,7 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Pricing
+                                        Services
                                     </Link>
                                 </li>
                                 <li>
@@ -61,21 +61,21 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Features
+                                        Contact Us
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         {/*End Col*/}
                         <div className="lg:mx-auto text-left ">
-                            <h4 className="text-lg text-gray-900 font-medium mb-7">Products</h4>
+                            <h4 className="text-lg text-gray-900 font-medium mb-7">Top Services</h4>
                             <ul className="text-sm  transition-all duration-500">
                                 <li className="mb-6">
                                     <Link
                                         href="javascript:;"
                                         className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Figma UI System
+                                        Web App
                                     </Link>
                                 </li>
                                 <li className="mb-6">
@@ -83,7 +83,7 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Icons Assets
+                                        Mobile Application
                                     </Link>
                                 </li>
                                 <li className="mb-6">
@@ -91,7 +91,7 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Responsive Blocks
+                                        UI/UX Desgin
                                     </Link>
                                 </li>
                                 <li>
@@ -99,7 +99,7 @@ const Footer = () => {
                                         href="javascript:;"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        Components Library
+                                        Software Development
                                     </Link>
                                 </li>
                             </ul>
@@ -191,19 +191,19 @@ const Footer = () => {
                             <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                                 <Link
                                     href="javascript:;"
-                                    className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center transition-all duration-500 hover:bg-indigo-600"
+                                    className="w-9 h-9 rounded-full bg-primeryColor flex justify-center items-center transition-all duration-500 hover:bg-secondrayColor"
                                 >
                                     <FaInstagram className="text-white" />
                                 </Link>
                                 <Link
                                     href="javascript:;"
-                                    className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center transition-all duration-500 hover:bg-indigo-600"
+                                    className="w-9 h-9 rounded-full bg-primeryColor flex justify-center items-center transition-all duration-500 hover:bg-secondrayColor"
                                 >
                                     <FaLinkedinIn className="text-white" />
                                 </Link>
                                 <Link
                                     href="javascript:;"
-                                    className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center transition-all duration-500 hover:bg-indigo-600"
+                                    className="w-9 h-9 rounded-full bg-primeryColor flex justify-center items-center transition-all duration-500 hover:bg-secondrayColor"
                                 >
                                     <FaFacebookF className="text-white" />
                                 </Link>
