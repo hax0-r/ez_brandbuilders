@@ -7,7 +7,7 @@ const Team = () => {
             <section className="">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-16 text-center">
-                        <h2 className=" text-5xl  font-semibold text-gray-900 ">
+                        <h2 className=" md:text-5xl text-4xl  font-semibold text-gray-900 ">
                             Our Team
                         </h2>
                         <p className='text-zinc-500 mt-4'>These people work on making our product best.</p>

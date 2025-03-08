@@ -11,6 +11,8 @@ import TechStack from "./Components/Home/TechStack";
 import { TextRollBasic } from "./Components/dev21/TextRollBasic";
 import Testimonial from "./Components/Home/Testimonial";
 import Team from "./Components/Home/Team";
+import Card from "./Components/Home/Card";
+import { SERVICES } from '../Data/Services'
 
 export default function Home() {
   return (
@@ -68,14 +70,37 @@ export default function Home() {
           <Counter />
         </section>
 
+        <section className="max-w-7xl w-full mx-auto p-5 md:mt-28 mt-10">
+          <div className="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto">
+            <div className="relative w-full text-center lg:text-left lg:w-2/4">
+              <h2 className="text-4xl font-semibold text-gray-900 leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">
+                Our Top Services
+              </h2>
+            </div>
+            <div className="relative w-full text-center  lg:text-left lg:w-2/4">
+              <p className="text-lg font-normal text-gray-500 mb-5">
+                We provide all the advantages that can simplify all your Bussniess without any further requirements
+              </p>
+              <Link
+                href="/"
+                className="flex flex-row items-center justify-center gap-2 text-base font-semibold text-primeryColor lg:justify-start hover:text-secondrayColor transition-all duration-500"
+              >
+                Read More
+                <IoIosArrowForward />
+              </Link>
+            </div>
+          </div>
+          <Card services={SERVICES} />
+        </section>
+
         {/* <section className="max-w-7xl w-full mx-auto p-5 md:mt-28 mt-10">
           <h2 className="md:text-5xl text-center text-3xl font-bold md:pb-14 pb-8">Our <span className="text-primeryColor">Services</span></h2>
           <SwiperComp />
         </section> */}
 
         <section className="max-w-7xl w-full mx-auto p-5 md:mt-24 mt-10">
-          <div className="bg-indigo-50 rounded-xl py-16 px-10 text-center flex items-center justify-center flex-col">
-            <h2 className="text-3xl font-semibold">Driving Success with our Digital Solutions</h2>
+          <div className="bg-indigo-50 rounded-xl md:py-16 py-10 md:px-10 px-5 text-center flex items-center justify-center flex-col">
+            <h2 className="md:text-3xl text-2xl font-semibold">Driving Success with our Digital Solutions</h2>
             <p className="text-gray-500 mt-5">EZ Brand Builders Solutions is a cutting-edge application development company that personalizes and streamlines the development process. We help startups and businesses evolve, compete, and succeed in the Artificial Intelligence (AI) era. As the leading company, we provide software development services through human touch in every aspect that makes us unique.</p>
             <Button className="mt-5">Schedule a Meeting</Button>
           </div>
