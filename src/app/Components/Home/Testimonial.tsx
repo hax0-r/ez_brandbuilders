@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { FaStar } from "react-icons/fa";
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
+import Image from "next/image";
 
 const Testimonial = () => {
     const swiperRef = useRef<Swiper | null>(null);
@@ -71,7 +72,7 @@ const Testimonial = () => {
                                 {[...Array(4)].map((_, index) => (
                                     <div key={index} className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl max-sm:max-w-sm max-sm:mx-auto p-6 transition-all duration-500 hover:border-secondrayColor ">
                                         <div className="flex items-center gap-5 mb-5 sm:mb-9">
-                                            <img className="rounded-full object-cover" src={index % 2 === 0 ? "https://pagedone.io/asset/uploads/1696229969.png" : "https://pagedone.io/asset/uploads/1696229994.png"} alt="avatar" />
+                                            {/* <Image className="rounded-full object-cover" src={index % 2 === 0 ? "https://pagedone.io/asset/uploads/1696229969.png" : "https://pagedone.io/asset/uploads/1696229994.png"} alt="avatar" /> */}
                                             <div className="grid gap-1">
                                                 <h5 className="text-gray-900 font-medium transition-all duration-500">{index % 2 === 0 ? "Jane D" : "Harsh P."}</h5>
                                                 <span className="text-sm leading-6 text-gray-500">{index % 2 === 0 ? "CEO" : "Product Designer"}</span>
