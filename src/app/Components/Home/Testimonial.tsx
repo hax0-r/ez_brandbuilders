@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { FaStar } from "react-icons/fa";
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Testimonial = () => {
     const swiperRef = useRef<Swiper | null>(null);

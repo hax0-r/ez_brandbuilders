@@ -4,7 +4,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import heroImage from "@/Assets/banner-img.png"
 import Image from "next/image";
-import SwiperComp from "./Components/Home/SwiperComp";
+// import SwiperComp from "./Components/Home/SwiperComp";
 import Counter from "./Components/Home/Counter";
 import { Button } from "@/components/ui/button";
 import TechStack from "./Components/Home/TechStack";
