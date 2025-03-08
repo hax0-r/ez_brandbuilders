@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import TechStack from "./Components/Home/TechStack";
 import { TextRollBasic } from "./Components/dev21/TextRollBasic";
 import Testimonial from "./Components/Home/Testimonial";
+import Team from "./Components/Home/Team";
 
 export default function Home() {
   return (
@@ -87,6 +88,10 @@ export default function Home() {
 
         <section className="max-w-7xl w-full mx-auto p-5 md:mt-28 mt-10">
           <Testimonial />
+        </section>
+
+        <section className="max-w-5xl w-full mx-auto p-5 md:mt-28 mt-10">
+          <Team />
         </section>
 
       </HomeLayout>
